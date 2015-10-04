@@ -1,7 +1,7 @@
 package me.exerosis.networking.event.packet;
 
+import me.exerosis.component.event.Cancellable;
 import me.exerosis.networking.sockets.channel.PacketContainer;
-import me.exerosis.reflection.event.Cancellable;
 
 public class PacketSendEvent extends PacketEvent implements Cancellable {
     private boolean cancelled;

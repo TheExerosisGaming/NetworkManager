@@ -1,9 +1,9 @@
 package me.exerosis.networking.sockets;
 
+import me.exerosis.component.event.EventManager;
 import me.exerosis.networking.event.packet.PacketReceiveEvent;
 import me.exerosis.networking.event.packet.PacketSendEvent;
 import me.exerosis.networking.sockets.channel.ClientConnection;
-import me.exerosis.reflection.event.EventManager;
 
 import java.net.InetSocketAddress;
 import java.util.HashMap;

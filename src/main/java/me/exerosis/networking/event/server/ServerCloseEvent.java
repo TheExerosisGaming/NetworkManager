@@ -1,6 +1,6 @@
 package me.exerosis.networking.event.server;
 
-import me.exerosis.reflection.event.Cancellable;
+import me.exerosis.component.event.Cancellable;
 
 public class ServerCloseEvent extends ServerEvent implements Cancellable {
     private boolean cancelled;
